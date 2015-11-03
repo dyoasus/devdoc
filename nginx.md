@@ -12,7 +12,8 @@ web 目录
 > /usr/share/nginx/html
 
 ## 负载均衡配置
-``` json
+
+```
 // vim /etc/nginx/nginx.con
 
 upstream webservers {
