@@ -1,3 +1,16 @@
+## 自动补全
+
+```
+curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+vim ~/.bash_profile 
+
+if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+fi
+```
+
+## fork
 1. fork 代码
 2. clone fork 分支到本地
 ``` go
